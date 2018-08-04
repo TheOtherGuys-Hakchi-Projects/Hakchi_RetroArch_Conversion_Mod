@@ -1,0 +1,13 @@
+#!/bin/sh
+
+source /etc/preinit
+script_init
+
+pkill -KILL clover-mcp # Kill it! Kill it with fire!
+pkill -KILL ReedPlayer-Clover # MORE FIRE!
+
+if [ -f "/bin/remote-exec" ]; then
+  echo retroarch-clover-child > /var/exec.flag
+else
+  exec retroarch-clover-child
+fi
