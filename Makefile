@@ -1,6 +1,7 @@
 MOD_VER := Hakchi_RetroArch_Conversion_v1_0_0
 MOD_NAME := Hakchi RetroArch Conversion v1.0.0
 MOD_CATEGORY := RetroArch
+MOD_CREATOR := Swingflip
 
 GIT_COMMIT := $(shell echo "`git rev-parse --short HEAD``git diff-index --quiet HEAD -- || echo '-dirty'`")
 
