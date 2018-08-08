@@ -2,7 +2,7 @@
 
 This module will convert your mini into a dedicated RetroArch machine!
 
-Please ensure that you install the latest RetroArch Neo from the Hakchi ModStore or [Hakchi Resources](https://hakchiresources.com)before installing this mod!
+Please ensure that you install the latest RetroArch Neo from the Hakchi ModStore or [Hakchi Resources](https://hakchiresources.com) before installing this mod!
 
 ### How to use
 
